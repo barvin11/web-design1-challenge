@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.page-header {
+	background-image: url('img/darkclouds.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex; 
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 1em;
+}
+
+/* NAVAGATION */
+nav ul {
+	list-style-type: none;
+}
+nav a  {
+
+		color:rgb(8, 130, 245);
+		font-weight: bold;
+}
+.sub-menu {
+	display: none;
+}
+
+.nav-primary>ul {
+	display: flex;
+	justify-content: space-between;
+	width: 32ch;
+	margin-right: 1em;
+}
+
+/* Custom styles for the home page. */
+.wcl-home main {
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+/* Custom styles for the data page. */
+.wcl-data .content-frame {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wcl-data .hint {
+	padding: 1em;
+	font-size: 85%;
+	text-align: center;
+	background-color: hsl(60, 40%, 90%);
+	border: 1px dashed #ccc;
+}
+
+.wcl-data table tr th {
+	text-align: center;
+}
+
+.wcl-data table tr td {
+	text-align: right;
+	padding-right: 1em;
+}
+
+.wcl-data table tr td:nth-child(2) {
+	text-align: left;
+}
